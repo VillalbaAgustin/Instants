@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Instants } from "./Instants";
+import { BrowserRouter } from "react-router-dom";
+import { InstantsApp } from "./InstantsApp";
 import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <Instants />
-  </React.StrictMode>
+   <React.StrictMode>
+      <BrowserRouter>
+         <InstantsApp />
+      </BrowserRouter>
+   </React.StrictMode>
 );

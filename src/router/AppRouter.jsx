@@ -6,7 +6,7 @@ import { InstantsRouter } from "../Instants";
 
 export const AppRouter = () => {
    
-   const [status, setStatus] = useState('authenticated')
+   const [status, setStatus] = useState('not-authenticated')
 
    /* status: 'checking', 'not-authenticated', 'authenticated'  */
 
